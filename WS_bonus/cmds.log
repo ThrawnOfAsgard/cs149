@@ -1,0 +1,14 @@
+  883  pwd
+  884  cd ~
+  885  cd Desktop
+  886  ls -latr ; mkdir cs149 ; cd cs149
+  887  git init
+  888  git remote add origin https://github.com/ThrawnOfAsgard/cs149.git
+  889  git config --global user.email "padmavathy.elencheliyan@sjsu.edu"
+  890  git config --global user.name "Padmavathy Elencheliyan"
+  891  mkdir WS_bonus
+  892  cd WS_bonus
+  893  git add .
+  894  wget -O out.pdf https://tinyurl.com/yy94jltt
+  895  wget2 -O out.pdf https://tinyurl.com/yy94jltt
+  896  ls -latr
