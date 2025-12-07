@@ -1,0 +1,61 @@
+  883  pwd
+  884  cd ~
+  885  cd Desktop
+  886  ls -latr ; mkdir cs149 ; cd cs149
+  887  git init
+  888  git remote add origin https://github.com/ThrawnOfAsgard/cs149.git
+  889  git config --global user.email "padmavathy.elencheliyan@sjsu.edu"
+  890  git config --global user.name "Padmavathy Elencheliyan"
+  891  mkdir WS_bonus
+  892  cd WS_bonus
+  893  git add .
+  894  wget -O out.pdf https://tinyurl.com/yy94jltt
+  895  wget2 -O out.pdf https://tinyurl.com/yy94jltt
+  896  ls -latr
+  897  history > cmds.log
+  898  vi cmds.log
+  899  cd .
+  900  cd
+  901  cd cs149
+  902  ls -1
+  903  cd Desktop
+  904  cd cs149
+  905  mkdir WS1
+  906  git add cmds.log *.c
+  907  cd WS_bonus
+  908  git add cmds.log *.c
+  909  git add cmds.log
+  910  git commit -m "First commit" -a
+  911  git branch
+  912  git push -u origin main
+  913  git push -u origin main
+  914  git push -u origin main
+  915  git push -u origin main
+  916  git push -u origin main
+  917  ls -la
+  918  git push -u origin main
+  919  cd ..
+  920  cd WS1
+  921  git add *.c
+  922  git commit -m "WS1 files" -a
+  923  git push -u origin main
+  924  cd ~
+  925  git clone git://g.csail.mit.edu/xv6-labs-2023
+  926  cd xv6-labs-2023
+  927  make qemu
+  928  cd user
+  929  vi usertests.c
+  930  cd ..
+  931  make qemu
+  932  cd user
+  933  vi sleep.c
+  934  make clean
+  935  make qemu
+  936  vi Makefile
+  937  make clean
+  938  make qemu
+  939  make grade
+  940  make qemu
+  941  make GRADEFLAGS=sleep grade
+  942  history > worksheet1.log
+  943  vi worksheet1.log
